@@ -1,0 +1,108 @@
+= Sim Yu Jie - Project Portfolio Page for AlgoSenpai Adventures
+
+
+image::images/Ui.png[width="400"align="center"]
+
+== Overview :
+
+About the project : Our team was tasked to morph a basic command line interface desktop application into another product
+for our Software Engineering project. We decided to turn it into an edutainment product. Programming has solidified itself
+as a core pillar of education and our team aspires to improve every students’ understanding on programming. Our product
+incorporates the advantages of many resources already available to the public to develop our users’ understanding of
+data structures and algorithms, which is an undeniable fundamental in programming.
+
+There are several features users can use to optimise their learning, such as the Lecture mode, Quiz mode and Arcade mode,
+and the product was designed to cater to users with different levels of proficiencies.
+
+== Summary of Contributions :
+
+=== Contributions to the software
+
+My largest contribution to the project was the implementation of the critical features as well as the backend code of the
+application.
+
+==== Implementation of the critical features.
+
+.. Lecture Mode +
+* The lecture mode was a proposed feature by me in order to assist students who are not proficient at Data Structures
+and Algorithms and require some assistance. This feature was inspired by https://visualgo.net[VisuAlgo] and the resources
+used for the lecture slides were taken from reputable sources such as https://geeksforgeeks.org[GeeksforGeeks]. +
+* Here is a reference to the
+link:https://github.com/AY1920S1-CS2113T-T09-3/main/tree/master/src/main/java/com/algosenpai/app/logic/command/critical/LectureCommand.java[`LectureCommand.java`]
+
+.. Arcade Mode +
+* The Arcade mode was another proposed feature by me in order to improve students who are already confident in their skills
+in Data Structures and Algorithms and want to test themselves. Questions will continuously be generated until users get a
+wrong answer. By incorporating this challenging feature, users will feel motivated to improve. This feature was inspired by
+games such as https://flappybird.io/[Flappy Bird], where users continuously try to beat their high score.
+* Here is a reference to the
+link:https://github.com/AY1920S1-CS2113T-T09-3/main/blob/master/src/main/java/com/algosenpai/app/logic/command/critical/ArcadeCommand.java[`ArcadeCommand.java`]
+
+[cols="^,^"]
+|===
+|Lecture Command |Arcade Command
+
+|image:images/lecturesorting.png[width="250"]
+|image:images/arcade.png[width="250"]
+
+|===
+
+
+==== Backend code of the application.
+
+.. Quiz generation +
+* I was also responsible for the database behind the critical features of the application. My duty was to ensure the
+correctness of the questions that were generated. The questions generated were inspired by https://visualgo.net[VisuAlgo's Quiz],
+but the source code for generation was mostly written by me, with some referenced from https://geeksforgeeks.org[GeeksforGeeks].
+* Each chapter contained approximately 4 different types of questions. However, the parameters supplied to each question type
+are randomly generated which makes it very unlikely that students will encounter the same question.
+* Here is a reference to the https://github.com/AY1920S1-CS2113T-T09-3/main/tree/master/src/main/java/com/algosenpai/app/logic/chapters[source code].
+
+.. Review generation +
+* The review command was primarily for weak users who  wish to understand what went wrong in the quiz. This was also inspired by https://visualgo.net[VisuAlgo's Quiz],
+as they did not provide any help if users got the question wrong. The steps given in the review feature were
+written by me.
+* Each question contains a comprehensive method on how to solve it, using a step-by-step methodological approach.
+* Here is a reference to one of the question's review https://github.com/AY1920S1-CS2113T-T09-3/main/blob/master/src/main/java/com/algosenpai/app/logic/chapters/chapter1/BubbleSortPassesQuestion.java[source code].
+
+.. Menu generation +
+* The menu command serves as a quick guide for new users to check on the syntax of various commands. This command was implemented
+by my team member, but was improved on by me.
+* Previously, each command was listed out, but I improved on it by partitioning the different commands into their separate
+categories. This improved the overall user experience. I also refactored the code to read in commands from a text file to
+minimise legacy issues.
+* Here is a reference to the source code for https://github.com/AY1920S1-CS2113T-T09-3/main/blob/master/src/main/java/com/algosenpai/app/logic/command/utility/MenuCommand.java[`MenuCommand.java`].
+
+
+[cols="^,^,^"]
+|====
+|Quiz|Review|Menu
+
+|image:images/quizsorting1.png[width="200"]
+|image:images/review1.png[width="200"]
+|image:images/menuexample.png[width="200"]
+|====
+
+
+== Contributions to the User Guide
+
+My contributions to the User Guide are the explanations for the `lecture`, `arcade` and `review` commands, as well as the
+pictorial representations of the expected outcomes for each command.
+
+=== Explanation
+
+==== `lecture`
+* The lecture command
+
+
+==== `arcade`
+
+
+==== `review`
+
+
+== Contributions to the Developer Guide
+
+
+
+== Other Contributions
