@@ -191,7 +191,7 @@ image::exit.png[width="650"]
 ====
 
 === Review your quiz questions : `review`
-This command allows you to review the questions which has went wrong during your quiz.
+This command allows you to review the questions which has went wrong during your quiz. +
 Format : `review NUMBER`
 
 ====
